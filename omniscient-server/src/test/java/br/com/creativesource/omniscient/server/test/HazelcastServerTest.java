@@ -14,7 +14,7 @@ public class HazelcastServerTest {
 	private HazelcastServer server;
 	
 	@Before
-	public void setup() {
+	public void setUp() throws Exception {
 		server = new HazelcastServer(); 
 	}
 	
@@ -25,10 +25,10 @@ public class HazelcastServerTest {
 	}
 	
 	@After
-	public void release() throws Exception {
+	public void tearDown() throws Exception {
 		assertTrue(server.isRunning());
 		server.stop();
 		assertFalse(server.isRunning());
 	}
-
+	
 }
