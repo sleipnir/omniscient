@@ -155,5 +155,9 @@
 		<module>omniscient-core</module>
 		<module>omniscient-server</module>
 		<module>omniscient-client</module>
+		
+		<module>spring-omniscient-discovery-server</module>
+		<module>spring-omniscient-discovery-client</module>
+		<module>spring-omniscient-example</module>
 	</modules>
 </project>
