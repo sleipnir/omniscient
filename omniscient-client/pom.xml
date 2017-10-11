@@ -15,4 +15,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+	
+	<dependencies>
+		<dependency>
+			<groupId>br.com.creativesource.omniscient</groupId>
+			<artifactId>omniscient-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
 </project>

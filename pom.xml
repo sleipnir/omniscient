@@ -151,8 +151,9 @@
 	</dependencies>
 
 	<modules>
+		<module>omniscient-api</module>
+		<module>omniscient-core</module>
 		<module>omniscient-server</module>
 		<module>omniscient-client</module>
-		<module>omniscient-api</module>
 	</modules>
 </project>
